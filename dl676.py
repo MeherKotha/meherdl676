@@ -91,3 +91,6 @@ for epoch in range(epochs):
                 val_acc /= len(val_dataset)
 
                 print(f'Epoch {epoch}, Batch {batch_idx}: Loss={loss.item():.4f}, Val_Loss={val_loss:.4f}, Val_Accuracy={val_acc:.4f}')
+                
+                //reference: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+                        
